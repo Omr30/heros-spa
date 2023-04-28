@@ -20,7 +20,7 @@ export const HeroPage = () => {
         <div className="row mt-5 animate__animated animate__fadeInLeft">
             <div className="col-4">
                 <img
-                    src={`/assets/heroes/${id}.jpg`}
+                    src={`https://omr30.github.io/heros-spa/heroes/${id}.jpg`}
                     alt={hero.superhero}
                     className="img-thumbnail"
                 />
