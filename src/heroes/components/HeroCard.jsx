@@ -15,7 +15,7 @@ export const HeroCard = ({
     first_appearance,
     characters,
 }) => {
-    const heroImage = `/heroes/${id}.jpg`
+    const heroImage = `https://omr30.github.io/heros-spa/heroes/${id}.jpg`
 
     return (
         <div className="col animate__animated animate__fadeIn">
